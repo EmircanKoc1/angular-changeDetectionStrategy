@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    gap: 20px;
+    width: 700px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+    .box {
+        width: 640px;
+        height: 200px;
+        background-color: lightgrey;
+    }
+}

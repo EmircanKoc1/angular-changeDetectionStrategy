@@ -1,1 +1,20 @@
-<p>parent works!</p>
+<div class="container">
+    <os-child1></os-child1>
+    <os-child2></os-child2>
+    <os-child3></os-child3>
+    <div class="box">
+        onPushStrategy - parent
+        <br>
+        renderCount: {{renderCount}}
+        <br>
+        counter : {{counter}}
+        <br>
+        setTimeoutCounter : {{timeoutCounter}}
+        <br>
+        <button (click)="incrementCounter()">increment Counter</button>
+        <br>
+        <button>No event call</button>
+        <br>
+      
+    </div>
+</div>

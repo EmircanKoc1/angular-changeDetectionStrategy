@@ -1,1 +1,15 @@
-<p>parent works!</p>
+<div class="container">
+    <ds-child1></ds-child1>
+    <ds-child2></ds-child2>
+    <ds-child3></ds-child3>
+    <div class="box">
+        defaultStrategy - parent
+        <br>
+        renderCount: {{renderCount}}
+        <br>
+        counter : {{counter}}
+        <br>
+        <button (click)="incrementCounter()">increment Counter</button>
+    </div>
+
+</div>
